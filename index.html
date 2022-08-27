@@ -2,17 +2,31 @@
 <head>
     <title>Doom Fire</title>
     <style>
+        html {
+            max-width: 1280px;
+            background-color: #222;
+        }
+
+        div {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
         table {
+            height: 75%;
             border-collapse: collapse;
-            border: 1px solid black;
+            aspect-ratio: 16 / 9;
         }
         
         td {
-            width: 50px;
-            height: 50px;
+            max-width: 5px;
+            max-height: 5px;
             border: 1px solid black;
             text-align: center;
-            vertical-align: center;
+            vertical-align: middle;
             font-family: monospace;
             font-size: 18px;
             position: relative;
